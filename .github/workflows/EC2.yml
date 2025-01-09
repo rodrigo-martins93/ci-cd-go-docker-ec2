@@ -35,7 +35,7 @@ jobs:
           export DB_PASSWORD=${{ secrets.DB_PASSWORD_RDS }} 
           export DB_USER=${{ secrets.DB_USER_RDS }} 
           export DB_NAME=${{ secrets.DB_NAME_RDS }} 
-          export DB_PORT=5432
+          export DB_PORT=${{ secrets.DB_PORT_RDS }} 
           export PORT=8000
           chmod +x main
           nohup ./main > nohup.out 2> nohup.err < /dev/null & 

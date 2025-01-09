@@ -42,4 +42,4 @@ jobs:
     # Push is a shorthand for --output=type=registry
         push: true
     # List of tags
-        tags: rodrigo1993/curso_ci:${{github.ref_name}} 
+        tags: rodrigo1993/ci-cd-go-docker-ec2:${{github.ref_name}} 
